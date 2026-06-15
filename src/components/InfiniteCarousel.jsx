@@ -11,22 +11,22 @@ const InfiniteCarousel = () => {
  w-max animate-[scroll_30s_linear_infinite] animate-scroll group-hover:[animation-play-state:paused]'>
         <div className='relative'>
         <img className='block flex-none h-75 bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/project 2.jpeg" alt=""  />
+         src={`${import.meta.env.BASE_URL}img/project 2.jpeg`} alt=""  />
          <Button href={""} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"}  title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75  bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/first project img.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/first project img.jpeg`} alt="" />
          <Button href={"https://dev-kishore04.github.io/Projects/"} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75  bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/kishore.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/kishore.jpeg`} alt="" />
          <Button href={""} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75  bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/Screenshot_10-2-2026_161649_localhost.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/Screenshot_10-2-2026_161649_localhost.jpeg`} alt="" />
          <Button href={""} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         
@@ -34,22 +34,22 @@ const InfiniteCarousel = () => {
 
         <div className='relative'>
         <img className='block flex-none h-75 bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/project 2.jpeg" alt=""  />
+         src={`${import.meta.env.BASE_URL}img/project 2.jpeg`} alt=""  />
          <Button href={""} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"}  title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75  bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/first project img.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/first project img.jpeg`} alt="" />
          <Button href={"https://dev-kishore04.github.io/Projects/"} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75  bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/kishore.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/kishore.jpeg`} alt="" />
          <Button href={""} rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         <div className="relative">
         <img className='flex flex-none h-75 pr-5 bg-black items-center justify-center rounded-xl mx-0 my-1'
-         src="/img/Screenshot_10-2-2026_161649_localhost.jpeg" alt="" />
+         src={`${import.meta.env.BASE_URL}img/Screenshot_10-2-2026_161649_localhost.jpeg`} alt="" />
          <Button href={""}rightIcon={<FaLocationArrow></FaLocationArrow>} containerClass={"absolute bottom-5 right-8"} title={"Visit Site"}></Button>
         </div>
         

@@ -166,7 +166,7 @@ const Landing = () => {
                   {title === "image" ? (
                     <img
                       className="w-full h-full absolute object-cover"
-                      src="/img/kishore.jpeg"
+                      src={`${import.meta.env.BASE_URL}img/kishore.jpeg`}
                       alt="image"
                     />
                   ) : null}
@@ -215,7 +215,7 @@ const Landing = () => {
                       <div>
                         <img
                           className="scale-150  overflow-hidden"
-                          src="/img/download.png"
+                          src={`${import.meta.env.BASE_URL}img/download.png`}
                           alt="image"
                         />
                       </div>
@@ -233,7 +233,7 @@ const Landing = () => {
                         <div className="flex shadow-xl flex-col w-50 items-center gap-2 rounded-2xl justify-around bg-rose-100">
                           <img
                             className="m-0 p-0 h-25 scale-100"
-                            src="/img/web-design.png"
+                            src={`${import.meta.env.BASE_URL}img/web-design.png`}
                             alt="web-design"
                           />
                           <p className="text-[15px] inter-bold ">Web Designing</p>
@@ -245,7 +245,7 @@ const Landing = () => {
                         <div className=" shadow-xl flex flex-col w-50 items-center gap-2 rounded-2xl justify-around bg-rose-100">
                           <img
                             className="m-0 p-0 h-25 scale-120"
-                            src="/img/web-dev.png"
+                            src={`${import.meta.env.BASE_URL}img/web-dev.png`}
                             alt="web-dev"
                           />
                           <p className="text-[15px] inter-bold ">Web Development</p>
@@ -257,7 +257,7 @@ const Landing = () => {
                         <div className="flex shadow-xl flex-col w-50 items-center gap-2 rounded-2xl justify-around bg-rose-100">
                           <img
                             className="m-0 p-0 h-25 scale-100"
-                            src="/img/social-media.png"
+                            src={`${import.meta.env.BASE_URL}img/social-media.png`}
                             alt="social-media"
                           />
                           <p className="text-[15px] inter-bold ">Social Media</p>
@@ -274,7 +274,7 @@ const Landing = () => {
                         <div className="flex flex-col justify-center items-center gap-1">
                           <img
                             className="h-10"
-                            src="/img/React-Logo-PNG.png"
+                            src={`${import.meta.env.BASE_URL}img/React-Logo-PNG.png`}
                             alt="react"
                           />
                           <p className="text-sm inter-bold font-bold">React JS</p>
@@ -282,7 +282,7 @@ const Landing = () => {
                         <div className="flex flex-col justify-center items-center gap-1">
                           <img
                             className="h-10 scale-130"
-                            src="/img/javascript-logo-javascript-icon-transparent-free-png.webp"
+                            src={`${import.meta.env.BASE_URL}img/javascript-logo-javascript-icon-transparent-free-png.webp`}
                             alt="react"
                           />
                           <p className="text-sm inter-bold font-bold">Java Script</p>
@@ -290,7 +290,7 @@ const Landing = () => {
                         <div className="flex flex-col justify-center items-center gap-1">
                           <img
                             className="h-10 scale-105"
-                            src="/img/Figma-Logo.png"
+                            src={`${import.meta.env.BASE_URL}img/Figma-Logo.png`}
                             alt="react"
                           />
                           <p className="text-sm inter-bold font-bold">Figma</p>
@@ -298,7 +298,7 @@ const Landing = () => {
                         <div className="flex flex-col justify-center items-center gap-1">
                           <img
                             className="h-10 scale-85"
-                            src="/img/tailwindcss.png"
+                            src={`${import.meta.env.BASE_URL}img/tailwindcss.png`}
                             alt="react"
                           />
                           <p className="text-sm inter-bold font-bold">Tailwind CSS</p>
@@ -306,7 +306,7 @@ const Landing = () => {
                         <div className="flex flex-col justify-center items-center gap-1">
                           <img
                             className="h-10 scale-125"
-                            src="/img/github.png"
+                            src={`${import.meta.env.BASE_URL}img/github.png`}
                             alt="react"
                           />
                           <p className="text-sm inter-bold font-bold">GitHub</p>
