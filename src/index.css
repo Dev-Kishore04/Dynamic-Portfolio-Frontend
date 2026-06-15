@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Satisfy&display=swap');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+@import "tailwindcss";
+
+  body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    
+  }
+
+  .circular {
+    font-family: "circular-web";
+    src: url("/fonts/circularweb-book.woff2") format("woff2");
+  }
+
+  .general {
+    font-family: "general";
+    src: url("/fonts/general.woff2") format("woff2");
+  }
+
+  .robert-medium {
+    font-family: "robert-medium";
+    src: url("/fonts/robert-medium.woff2") format("woff2");
+  }
+
+  .robert-regular {
+    font-family: "robert-regular";
+    src: url("/fonts/robert-regular.woff2") format("woff2");
+  }
+
+  .zentry {
+    font-family: "zentry";
+    src: url("/fonts/zentry-regular.woff2") format("woff2");
+  }
+
+  .inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.inter-bold{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+ .montserrate{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sn-pro{
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.sn-pro-small {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-doto {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+  font-variation-settings:
+    "ROND" ;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: bold;
+}
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: Clash-Display;
+  src: url(/fonts/ClashDisplay-Variable.ttf);
+}
+@font-face {
+  font-family: telma;
+  src: url(/fonts/Telma-Variable.ttf);
+}
+@font-face {
+  font-family: kola;
+  src: url(/fonts/Kola-Regular.otf);
+}
+@theme{
+  --font-clash: Clash-Display, "sans-serif";
+  --font-telma: telma, "sans-serif";
+  --font-kola: kola, "sans-serif"
+}
+
+  @keyframes scroll {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-50%);
+    }
+  }
+
+  
+
